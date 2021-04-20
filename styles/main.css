@@ -1,0 +1,202 @@
+@media only screen and (max-width: 959px) {
+	section h1 {font-size: 135%;}
+	section h2{font-size: 120%;}
+	aside h2{font-size: 120%;}
+}
+
+@media only screen and (max-width: 767px){
+	header img{float: none;}
+	header {align-content: center;}
+	section {float: none; width: 97.91666667%;}
+	aside {float: none; padding-left: 2.083333333%; width: 97.91666667%;}
+
+	aside div {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	body{
+		font-size: 90%;
+	}
+}
+
+/* the styles for the elements */
+html{background-color: white;}
+/* The styles for the body element*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 90%;
+	max-width: 960px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-color: #931420;
+	background-color: #fffded;
+}
+
+a { font-weight: bold; }
+a:link { color: #931420; }
+a:hover, a:focus { color: blue; }
+a:visited { color: #f2972e;}
+
+ul { line-height: 1.5; }
+li, p { font-size: 95%; }
+em { font-weight: bold; }
+
+/* the styles for the header */
+header{border-bottom: solid;
+	border-bottom-color: #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%, white 33%, white 79%);
+}
+header img { float: left; padding-left: 3.125%; padding-right: 3.125%;}
+header h2 {
+	font-size: 170%;
+    color: #800000;
+    text-align: left;
+	/*text-shadow: 2px 2px 2px black;*/
+	/*text-indent: 30px;*/
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    text-align: left;
+	/*text-indent: 30px;*/
+}
+
+article img {
+	max-width: 40%;
+	min-width: 150px;
+}
+/* the styles for the main content */
+main { clear: left; }
+
+
+
+
+
+main:hover a{font-style: italic }
+main a{color: black}
+
+main p.indent { text-indent: 2em; padding-bottom: .5em; }
+main a.date_passed { color: gray; }
+main img {padding-bottom: 1em; padding-top: .5em;}
+main blockquote {padding-right: 2em; padding-left: 2em; font-style: italic; margin: 1px; font-size: 14px;}
+main ul{padding-bottom: .25em; padding-left: 1.25em;}
+main li {padding-bottom: .35em;}
+main ul li {list-style-type: circle;}
+
+/* the styles for the footer */
+footer p {
+	font-size: 80%;
+	text-align: center;
+	background-color: #931420;
+	color: white;
+
+}
+/*The styles for the section in main*/
+section {
+	width: 54.6875%;
+	float: right;
+	padding-right: 2.083333333%;
+	padding-left: 2.083333333%;
+}
+section h2 { font-size: 130%; color: #800000; padding-top: .5em; padding-bottom: .25em;}
+section h3 {padding-bottom: .25em;}
+section h1 { font-size: 150%; padding-top: .5em; padding-bottom: .25em; margin: 0;}
+
+/*The styles for the aside in main*/
+aside{
+	width: 22.3959%;
+	float: right;
+	padding-left: 2.083333333%;
+	padding-bottom: 20px;
+
+}
+aside h2 { font-size: 130%; color: #800000; padding-top: .5em; padding-bottom: .25em;}
+aside h3 {padding-bottom: .25em; font-size: 105%;}
+aside image{padding-bottom: 1em;}
+
+/*Styles for the footer section*/
+footer{
+	clear: both;
+	background-color: #931420;
+}
+
+article {
+	padding: .5em 0;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+article img {
+	float: right;
+	margin: .5em 0 .5em 1em;
+	border: 1px solid black;
+}
+
+article h2 {
+	padding-top: 0;
+}
+
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/*Styles for the nav menu list*/
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav_menu ul li {
+	width: 20%;
+	float: left;
+}
+
+#nav_menu ul li a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	text-align: center;
+}
+
+#nav_menu ul ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul li a.current{
+	color: yellow;
+}
+
+
+
+
+
